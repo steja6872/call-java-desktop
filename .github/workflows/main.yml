@@ -11,7 +11,9 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.11
-      - name: setup java
-        run: |
-             javac C:/Users/ACER/Desktop/java-programs/prime.java
-             java C:/Users/ACER/Desktop/java-programs/prime
+          
+      - name: Compile java Program
+        run: javac C:/Users/ACER/Desktop/java-programs/prime.java
+        
+      - name: Run Java Program
+        run: java -cp C:/Users/ACER/Desktop/java-programs/prime

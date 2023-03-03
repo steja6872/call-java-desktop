@@ -13,5 +13,5 @@ jobs:
           java-version: 1.11
       - name: setup java
         run: |
-             javac C:/Users/ACER/Desktop/java-programs/fibonacci.java
-             java -cp C:/Users/ACER/Desktop/java-programs/fibonacci
+             javac C:/Users/ACER/Desktop/java-programs/prime.java
+             java -cp C:/Users/ACER/Desktop/java-programs/prime

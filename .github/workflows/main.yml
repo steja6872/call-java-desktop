@@ -14,4 +14,4 @@ jobs:
       - name: setup java
         run: |
              javac C:/Users/ACER/Desktop/java-programs/prime.java
-             java -cp C:/Users/ACER/Desktop/java-programs/prime
+             java C:/Users/ACER/Desktop/java-programs/prime
